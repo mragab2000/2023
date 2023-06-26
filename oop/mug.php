@@ -2,12 +2,11 @@
 declare(strict_types=1);
 class Mug
 {
-    //(color - price - size)
     private string $color;
     public float $price;
     public float $size;
 
-    public function drinkingHotDrink(string $drinkType)
+    public function drinkingHotDrink(string $drinkType): string
     {
         return $drinkType;
     }
